@@ -1,3 +1,24 @@
+# Tags: 1.20.3-debian-10-r6, 1.20.3, 1.20-debian-10, 1.20
+FROM bitnami/envoy:1.20.3-debian-10-r6
+FROM bitnami/envoy:1.20.3
+FROM bitnami/envoy:1.20-debian-10
+FROM bitnami/envoy:1.20
+
+# Tags: _
+FROM bitnami/envoy:_
+
+# Tags: 1.21.1-debian-10-r67, 1.21.1, 1.21-debian-10, 1.21
+FROM bitnami/envoy:1.21.1-debian-10-r67
+FROM bitnami/envoy:1.21.1
+FROM bitnami/envoy:1.21-debian-10
+FROM bitnami/envoy:1.21
+
+# Tags: 1.19.4-debian-10-r7, 1.19.4, 1.19-debian-10, 1.19
+FROM bitnami/envoy:1.19.4-debian-10-r7
+FROM bitnami/envoy:1.19.4
+FROM bitnami/envoy:1.19-debian-10
+FROM bitnami/envoy:1.19
+
 # Tags: latest, 1.22.0-debian-10-r11, 1.22.0, 1.22-debian-10, 1.22
 FROM bitnami/envoy:latest
 FROM bitnami/envoy:1.22.0-debian-10-r11
@@ -5,32 +26,20 @@ FROM bitnami/envoy:1.22.0
 FROM bitnami/envoy:1.22-debian-10
 FROM bitnami/envoy:1.22
 
-# Tags: _
-FROM bitnami/envoy:_
-
 # Tags: 1.18.6-debian-10-r69, 1.18.6, 1.18-debian-10, 1.18
 FROM bitnami/envoy:1.18.6-debian-10-r69
 FROM bitnami/envoy:1.18.6
 FROM bitnami/envoy:1.18-debian-10
 FROM bitnami/envoy:1.18
 
-# Tags: 1.20.3-debian-10-r5, 1.20.3, 1.20-debian-10, 1.20
+# Tags: 1.20.3-debian-10-r5
 FROM bitnami/envoy:1.20.3-debian-10-r5
-FROM bitnami/envoy:1.20.3
-FROM bitnami/envoy:1.20-debian-10
-FROM bitnami/envoy:1.20
 
-# Tags: 1.21.1-debian-10-r66, 1.21.1, 1.21-debian-10, 1.21
+# Tags: 1.21.1-debian-10-r66
 FROM bitnami/envoy:1.21.1-debian-10-r66
-FROM bitnami/envoy:1.21.1
-FROM bitnami/envoy:1.21-debian-10
-FROM bitnami/envoy:1.21
 
-# Tags: 1.19.4-debian-10-r6, 1.19.4, 1.19-debian-10, 1.19
+# Tags: 1.19.4-debian-10-r6
 FROM bitnami/envoy:1.19.4-debian-10-r6
-FROM bitnami/envoy:1.19.4
-FROM bitnami/envoy:1.19-debian-10
-FROM bitnami/envoy:1.19
 
 # Tags: 1.22.0-debian-10-r10
 FROM bitnami/envoy:1.22.0-debian-10-r10
@@ -396,15 +405,3 @@ FROM bitnami/envoy:1.21.1-debian-10-r40
 
 # Tags: 1.20.2-debian-10-r40
 FROM bitnami/envoy:1.20.2-debian-10-r40
-
-# Tags: 1.19.3-debian-10-r39
-FROM bitnami/envoy:1.19.3-debian-10-r39
-
-# Tags: 1.18.6-debian-10-r40
-FROM bitnami/envoy:1.18.6-debian-10-r40
-
-# Tags: 1.21.1-debian-10-r39
-FROM bitnami/envoy:1.21.1-debian-10-r39
-
-# Tags: 1.20.2-debian-10-r39
-FROM bitnami/envoy:1.20.2-debian-10-r39
